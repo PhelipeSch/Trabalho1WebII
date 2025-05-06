@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-image: linear-gradient(to bottom, #111, black);
+    color: #f2f2f2;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #080808;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  }
+  .container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+  }
+  .container p {
+    text-indent: 15px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  #frase {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #080808;
+    margin: 10px auto;
+    padding: 20px;
+    max-width: 1200px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+
+    color: #f01a1a;
+  }
+  

@@ -4,10 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock in Ere</title>
-    <link rel="stylesheet" href="../CSS/pagina.css">
-    <link rel="stylesheet" href="../CSS/footer.css">
-    <link rel="stylesheet" href="../CSS/header.css" />
+    <title>Contato | Rock in Ere</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/iconsmind/outline/256/Electric-Guitar-icon.png"
         type="image/x-icon">
@@ -15,53 +13,87 @@
 
 <body>
     <header>
-        <div class="logo">
-            <a href="index.html"><img src="../IMAGENS/logo.png" alt="Logo Rock in Ere"></a>
-        </div>
-        <nav>
-            <div id="pesquisa">
-                <input type="text" placeholder="Pesquisar">
-                <div id="pesquisa_img">
-                    <button><img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT75SELy7I8F_vR2KQwSl9kI92TgoGW26UtSA&s"
-                            alt="lupa-pesquisa"></button>
-                </div>
+
+        <nav class="navegacao">
+
+            <div class="logo">
+                <a href="../index.html"><img src="../IMAGENS/logo.png" alt="Logo Rock in Ere"></a>
             </div>
-            <ul>
-                <li><a href="index.html">Página principal</a></li>
-                <li><a href="quemsomos.html">Quem somos?</a></li>
+
+            <ul class="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="quemsomos.html">Quem Somos</a></li>
                 <li><a href="servicos.html">Serviços</a></li>
             </ul>
+
+            <div id="pesquisa">
+                <input type="text" placeholder="Pesquisar" />
+
+                <div id="pesquisa_img">
+                    <button>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT75SELy7I8F_vR2KQwSl9kI92TgoGW26UtSA&s"
+                            alt="lupa-pesquisa" />
+                    </button>
+                </div>
+
+            </div>
+
         </nav>
+
     </header>
     <main>
         <div class="container">
             <h1>Contato</h1>
             <p>
-                Quer transformar a sua ideia em um evento incrível? Precisa de uma equipe profissional para dar vida a um projeto? Ou apenas quer saber mais sobre o que a Rock in Ere pode fazer por você? Fale com a gente! Estamos prontos para ouvir, colaborar e criar juntos.
+                Quer transformar a sua ideia em um evento incrível? Precisa de uma equipe profissional para dar vida a
+                um projeto? Ou apenas quer saber mais sobre o que a Rock in Ere pode fazer por você? Fale com a gente!
+                Estamos prontos para ouvir, colaborar e criar juntos.
             </p>
             <h2>Telefone/Whatsapp</h2>
             <p>
-                Entre em contato diretamente pelo nosso número. Estamos disponíveis para ligações e mensagens via WhatsApp:<br>(54) 99999-9999
+                Entre em contato diretamente pelo nosso número. Estamos disponíveis para ligações e mensagens via
+                WhatsApp: <b>(54) 99999-9999</b>
             </p>
             <h2>E-mail</h2>
             <p>
-                Envie sua proposta, dúvidas ou sugestões para:<br>contato@rockinere.com.br
+                Envie sua proposta, dúvidas ou sugestões para: <b>contato@rockinere.com.br</b>
             </p>
             <h2>Endereço e Atuação</h2>
             <p>
-                Estamos localizados em Erechim - RS, mas atuamos em toda a região do Alto Uruguai, levando nossa expertise para diferentes cidades, públicos e tipos de eventos.
+                Estamos localizados em Erechim - RS, mas atuamos em toda a região do Alto Uruguai, levando nossa
+                expertise para diferentes cidades, públicos e tipos de eventos.
             </p>
             <h2>Redes Sociais</h2>
             <p>
                 Nos acompanhe e fique por dentro das nossas produções, bastidores e eventos futuros:
-                Instagram: <br>@rockinere                
+                Instagram: <br>@rockinere
             </p>
             <h2>Atendimento Personalizado</h2>
             <p>
-                Cada cliente é único, por isso nosso atendimento também é. Agende um horário para conversar com a gente e montar seu evento do zero, com planejamento, consultoria e muito cuidado em cada detalhe.
+                Cada cliente é único, por isso nosso atendimento também é. Agende um horário para conversar com a gente
+                e montar seu evento do zero, com planejamento, consultoria e muito cuidado em cada detalhe.
             </p>
         </div>
+
+        <section class="contatos">
+            <h2 class="contatos-titulo">Tire suas Dúvidas</h2>
+            <form id="formulario" class="formulario-contato" onsubmit="enviarWhatsapp(event)">
+
+                <div class="grupo-form">
+                    <input placeholder="Nome" type="text" class="text-form" id="nome">
+                </div>
+
+                <div class="grupo-form">
+                    <textarea class="text-form" placeholder="Digite sua Mensagem" rows="6" id="mensagem"></textarea>
+                </div>
+
+                <button type="submit">Enviar WhatsApp</button>
+
+            </form>
+        </section>
+
+        <script src="../js/script.js"></script>
+
     </main>
     <footer>
         <p>&copy; 2025 Rock in Ere - Todos os direitos reservados.</p>

@@ -100,31 +100,6 @@ body {
     height: 25px;
 }
 
-.sobre {
-    padding: 6rem 2rem;
-}
-
-.sobre h2 {
-    font-size: 3.5rem;
-    color: var(--claro);
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.sobre-caixa {
-    padding: 2rem;
-    max-width: 800px;
-    margin: 0 auto;
-    border-radius: 16px;
-    border: 2px solid var(--vidro);
-    background: var(--grafite);
-}
-
-.sobre-caixa p {
-    text-align: center;
-    font-size: 1.5rem;
-}
-
 .main_imagem {
     background-size: cover;
     background-position: center;
@@ -133,23 +108,39 @@ body {
     margin: 0 auto;
 }
 
-.projetos {
+.exp {
     padding: 6rem 2rem;
 }
 
-.projetos-titulo {
+.exp h2 {
+    font-size: 3.5rem;
+    color: var(--claro);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.exp-caixa {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 2px solid var(--vidro);
+    background: var(--grafite);
+}
+
+.exp-caixa p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.clientes-titulo {
     font-size: 3rem;
     color: var(--claro);
     text-align: center;
     margin-bottom: 50px;
 }
 
-.linke{
-    text-decoration: none;
-    color: var(--claro);
-}
-
-.projetos-caixa {
+.clientes-caixa {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -158,7 +149,12 @@ body {
     margin: 0 auto;
 }
 
-.projetos-card {
+.linke{
+    text-decoration: none;
+    color: var(--claro);
+}
+
+.clientes-card {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 16px;
     backdrop-filter: blur(5px);
@@ -170,28 +166,28 @@ body {
     cursor: pointer;
 }
 
-.projetos-card:hover {
-    box-shadow: 0 10px 20px rgba(151, 48, 48, 0.4);
-    transform: translateY(-10px) scale(1.03);
-}
-
-.projetos-imagem {
+.clientes-imagem {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
 
-.caixa-textos-projetos {
+.clientes-card:hover {
+    box-shadow: 0 10px 20px rgba(151, 48, 48, 0.4);
+    transform: translateY(-10px) scale(1.03);
+}
+
+.caixa-textos-clientes {
     padding: 1.5rem;
 }
 
-.info-projetos {
+.info-clientes {
     margin-bottom: 10px;
     text-align: center;
     font-size: 1.3rem;
 }
 
-.paragrafo-projetos {
+.paragrafo-clientes {
     color: var(--claro);
     line-height: 1.5rem;
     text-align: center;

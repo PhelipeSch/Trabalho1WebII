@@ -149,7 +149,7 @@ body {
     margin: 0 auto;
 }
 
-.linke{
+.linke {
     text-decoration: none;
     color: var(--claro);
 }
@@ -234,7 +234,7 @@ footer {
     text-indent: 1.5rem;
     font-size: 1.5rem;
     line-height: 1.5;
-    
+
 }
 
 #frase {
@@ -306,10 +306,12 @@ footer {
     transform: translateY(-4px);
     box-shadow: 0 5px 15px var(--principal);
 }
+
 .dropdown {
     position: relative;
-  }
-  .submenu {
+}
+
+.submenu {
     display: none;
     position: absolute;
     top: 100%;
@@ -322,22 +324,25 @@ footer {
     border-radius: 0 0 8px 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     z-index: 999;
-  }
-  
-  .submenu li a {
+}
+
+.submenu li a {
     padding: 0.75rem 1rem;
     display: block;
     color: var(--claro);
     text-decoration: none;
     transition: background 0.3s ease;
     font-size: 1.2rem;
-  }
-  
-  .submenu li a:hover {
+}
+
+.submenu li a:hover {
     background-color: var(--principal);
-  }
-  
-  .dropdown:hover .submenu {
+}
+
+.dropdown:hover .submenu {
     display: block;
-  }
-  
+}
+
+[id] {
+    scroll-margin-top: 160px;
+}
